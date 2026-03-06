@@ -1,3 +1,19 @@
+libfontenc (1:1.1.8-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Use secure URI in debian/watch.
+  * Bump debhelper from old 12 to 13.
+    + debian/rules: Drop --fail-missing argument to dh_missing, which is now the
+      default.
+  * Replace XC-Package-Type with Package-Type.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+  * control: Migrate to pkgconf.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 12 Mar 2024 11:20:33 +0200
+
 libfontenc (1:1.1.4-1) unstable; urgency=medium
 
   * New upstream release.
