@@ -1,3 +1,9 @@
+libfontenc (1:1.1.8-2) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Thu, 10 Sep 2026 18:18:44 +0800
+
 libfontenc (1:1.1.8-1) unstable; urgency=medium
 
   [ Debian Janitor ]
